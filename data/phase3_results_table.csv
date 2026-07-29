@@ -1,0 +1,22 @@
+Model,Regime,Acc%,F1,AUC,Sharpe,MaxDD%,AnnRet%,Model_Exp
+Naive Baseline,Wave 1 Crash,41.67,0.588,0.5,-1.219,-37.01,-51.47,Naive Baseline
+LR  (A Tech),Wave 1 Crash,54.17,0.476,0.536,-0.674,-8.2,-11.07,LR  (A Tech)
+LR  (B All),Wave 1 Crash,52.78,0.485,0.54,0.402,-8.12,13.51,LR  (B All)
+XGB (A Tech),Wave 1 Crash,52.78,0.5,0.506,2.102,-13.63,96.5,XGB (A Tech)
+XGB (B All),Wave 1 Crash,48.61,0.493,0.542,0.774,-15.23,32.19,XGB (B All)
+LSTM (A Tech),Wave 1 Crash,44.23,0.567,0.504,2.548,-10.51,134.52,LSTM (A Tech)
+XGB (C Roll),Wave 1 Crash,50.0,0.217,0.37,-1.817,-10.81,-29.33,XGB (C Roll)
+Naive Baseline,Wave 2 Delta,52.27,0.687,0.5,0.821,-6.23,18.87,Naive Baseline
+LR  (A Tech),Wave 2 Delta,48.86,0.043,0.589,-1.456,-0.05,3.19,LR  (A Tech)
+LR  (B All),Wave 2 Delta,48.86,0.043,0.568,-1.456,-0.05,3.19,LR  (B All)
+XGB (A Tech),Wave 2 Delta,61.36,0.622,0.629,2.001,-4.73,31.78,XGB (A Tech)
+XGB (B All),Wave 2 Delta,54.55,0.545,0.554,0.066,-7.33,6.24,XGB (B All)
+LSTM (A Tech),Wave 2 Delta,44.12,0.0,0.505,,0.0,0.0,LSTM (A Tech)
+XGB (C Roll),Wave 2 Delta,51.14,0.482,0.479,0.046,-6.33,6.2,XGB (C Roll)
+Naive Baseline,Full Recovery,51.38,0.679,0.5,0.558,-17.23,13.44,Naive Baseline
+LR  (A Tech),Full Recovery,48.62,0.0,0.544,,0.0,0.0,LR  (A Tech)
+LR  (B All),Full Recovery,48.77,0.006,0.531,-8.559,-0.05,0.39,LR  (B All)
+XGB (A Tech),Full Recovery,51.84,0.489,0.534,0.032,-10.2,6.05,XGB (A Tech)
+XGB (B All),Full Recovery,50.0,0.407,0.498,-0.657,-12.14,0.15,XGB (B All)
+LSTM (A Tech),Full Recovery,48.58,0.0,0.465,,0.0,0.0,LSTM (A Tech)
+XGB (C Roll),Full Recovery,46.93,0.506,0.468,-0.86,-18.48,-3.91,XGB (C Roll)
